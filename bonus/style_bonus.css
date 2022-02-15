@@ -1,0 +1,158 @@
+
+:root{
+    --my_blue: #14AAF5;
+    --my_green:  #2CC6AB;
+    --my_orange:  #FF9B00;
+    --my_pink: #F5A4CE;
+    --my_yellow:#A3D116;
+}
+
+
+
+/* logo */
+#container{
+    width: 90%;
+    background-color:  lightgrey;
+    margin: 0 auto;
+}
+
+#title{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#logo{
+    background-color: white;
+}
+
+.logo_img{
+    width: 70px;
+}
+
+.contain{
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+}
+/* /Logo */
+
+    /* Header */
+header{
+    border-bottom: 1px solid lightgrey;
+    margin: 30px;
+}
+
+/* Button_add */
+.add{
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.task{
+    background-color: var(--my_blue);
+    color: white;
+    border-color: var(--my_blue);
+}
+
+.section{
+    background-color: white;
+    color: grey;
+    border-color: gray;
+}
+/* /Button_add */
+
+
+/* Main */
+
+main{
+    margin: 30px;
+} 
+
+h1{
+    margin-bottom: 0;
+}
+
+.select{
+    font-size: 0.8rem;
+}
+
+.check{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+
+.delete{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+
+.icon{
+    font-size: 14px;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.choice{
+    font-size: 1.5rem;
+}
+
+.button_dimension{
+    border-radius: 25px;
+    padding: 7px;
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+/* Button color */
+.blue{
+    background-color: var(--my_blue);
+    color: white;
+    border: 1px solid var(--my_blue);
+}
+
+.purple{
+    background-color: #AB5DE6;
+    color: white;
+    border: 1px solid #AB5DE6;
+}
+
+.green{
+    background-color: var(--my_green);
+    color: white;
+    border: 1px solid var(--my_green);
+}
+
+.orange{
+    background-color: var(--my_orange);
+    color: white;
+    border: 1px solid var(--my_orange);
+}
+
+.pink{
+    background-color: var(--my_pink);
+    color: white;
+    border: 1px solid var(--my_pink);
+}
+
+.yellow{
+    background-color: var(--my_yellow);
+    color: white;
+    border: 1px solid var(--my_yellow);
+}
+/* /Button color */
+
+/* /Main */
