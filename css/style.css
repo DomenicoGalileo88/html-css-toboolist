@@ -53,6 +53,19 @@ h1{
     margin: 10px;
 }
 
+.delete{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+    
+
+
 .icon{
     font-size: 14px;
     vertical-align: middle;
@@ -64,11 +77,32 @@ h1{
 }
 
 .button_dimension{
-    background-color: blue;
-    color: white;
-    border: 1px solid blue;
     border-radius: 25px;
     padding: 7px;
     font-size: 10px;
     margin-left: 3px;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+
+.purple{
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+
+.orange{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
 }
