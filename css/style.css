@@ -1,15 +1,30 @@
-body{
+#container{
+    width: 90%;
     background-color:  lightgrey;
+    margin: 0 auto;
 }
 
-.container{
+#title{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#logo{
+    background-color: white;
+}
+
+.logo_img{
+    width: 70px;
+}
+
+.contain{
     width: 70%;
     background-color: white;
     margin: 0 auto;
 }
     /* Header */
 header{
-    border-bottom: 1 px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
     margin: 30px;
 }
 
@@ -34,6 +49,11 @@ header{
 
 
 /* Main */
+
+main{
+    margin: 30px;
+} 
+
 h1{
     margin-bottom: 0;
 }
@@ -63,8 +83,6 @@ h1{
     height: 15px;
     margin: 10px;
 }
-    
-
 
 .icon{
     font-size: 14px;
